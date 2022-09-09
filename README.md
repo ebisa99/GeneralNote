@@ -13,6 +13,10 @@ helpful article to implement JWT = https://medium.com/geekculture/implementing-j
 3.  helpful article on JPA = https://www.baeldung.com/learn-jpa-hibernate
 4.  STANDARD WAY OF INTEGRATING BACK-END WITH REACT APPLICATION
 creating react app:- npx create-react-app <appname>
+solving vurnerablity issues when running npm install command to install react project dependencies:-
+ open package.json, add  "devDependencies": {
+    "react-scripts": ""
+  }, next to dependencies and move "react-scripts": "<version>" from dependencies to devDependencies, and then run "npm audit --production"
 5.  STANDARD WAY OF DEVELOPING ABYSS APPLICATION WITH BACK-END AND FRONT-END INTEGRATED
 creating Abyss Project:- yarn create abyss-app my-new-app
 for any javascript(react/Abyss) application development understanding node and express which is Node web framework is very important
