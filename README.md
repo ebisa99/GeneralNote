@@ -12,7 +12,9 @@ helpful article to implement JWT = https://medium.com/geekculture/implementing-j
 2.  SOME KEY CONCEPTS IN JPA IMPLEMENTATION
 3.  helpful article on JPA = https://www.baeldung.com/learn-jpa-hibernate
 4.  STANDARD WAY OF INTEGRATING BACK-END WITH REACT APPLICATION
+creating react app:- npx create-react-app <appname>
 5.  STANDARD WAY OF DEVELOPING ABYSS APPLICATION WITH BACK-END AND FRONT-END INTEGRATED
+creating Abyss Project:- yarn create abyss-app my-new-app
 for any javascript(react/Abyss) application development understanding node and express which is Node web framework is very important
 To create Node app:
     1. we need the Latest Node and npm installed on our machine Then the following is example of pure Node app:-
