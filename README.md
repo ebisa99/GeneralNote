@@ -17,6 +17,9 @@ solving vurnerablity issues when running npm install command to install react pr
  open package.json, add  "devDependencies": {
     "react-scripts": ""
   }, next to dependencies and move "react-scripts": "<version>" from dependencies to devDependencies, and then run "npm audit --production"
+  NextJs seems to be better that create-react-app for react project because nextjs make it easy to pages routing by using the concept of pages
+  and next/link component.
+  "npx create-next-app <appname>" is used to create nextjs project, "npm run dev" is used to run nextjs app locally.
 5.  STANDARD WAY OF DEVELOPING ABYSS APPLICATION WITH BACK-END AND FRONT-END INTEGRATED
 creating Abyss Project:- yarn create abyss-app my-new-app
 for any javascript(react/Abyss) application development understanding node and express which is Node web framework is very important
